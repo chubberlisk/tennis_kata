@@ -42,7 +42,10 @@ class TennisVersionTwo
   end
 
   def winner?
-    (@player_one_points == 4 && @player_two_points <= 2) || (@player_one_points == 5 && @player_two_points == 3) || (@player_two_points == 4 && @player_one_points <= 2) || (@player_two_points == 5 && @player_one_points == 3)
+    (@player_one_points == 4 && @player_two_points <= 2) ||
+      (@player_one_points == 5 && @player_two_points == 3) ||
+      (@player_two_points == 4 && @player_one_points <= 2) ||
+      (@player_two_points == 5 && @player_one_points == 3)
   end
 
   def output_advantage
