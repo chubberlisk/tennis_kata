@@ -1,4 +1,4 @@
-# tennis_kata
+# Tennis Kata
 
 A Ruby solution to the Tennis kata using the RSpec framework.
 
