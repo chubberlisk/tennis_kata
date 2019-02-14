@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'tennis_version_two'
 
 describe TennisVersionTwo do
